@@ -15,6 +15,8 @@ public class MadLib {
     String letterGrade;
     String season;
     String story;
+    String itemFromCamping;
+    String historyClassTeacher;
 
 
     public static void main(String[] args) {
@@ -29,7 +31,7 @@ public class MadLib {
         noun = "computer";
         adjective = "prickly";
         pluralNoun = "debit cards";
-        pluralAnimal = "foxes";
+        pluralAnimal = "fox";
         trueOrFalse = true;
         decimalBiggerThan1 = 50;
         number1 = 1;
@@ -39,6 +41,9 @@ public class MadLib {
         miltonDean = "Ms. Swain";
         letterGrade = "A";
         season = "winter";
+        itemFromCamping = "poisonous mushroom";
+        historyClassTeacher = "Mr. Furst's";
+
         story = "This weekend I am going camping with "
                 +classmate+ ". We are going to a campsite in "
                 +city+ ". I packed my "+noun+ " and "
@@ -49,8 +54,10 @@ public class MadLib {
                 +miltonTeacher+" said it's " + trueOrFalse + " that "+pluralAnimal+ " eat class "
                 +wholeNumberBetween1and4+ " students in the " +season+ ". But, "
                 +miltonDean+ " said it actually has only happened "
-                + number2+" times. Wish us luck! If we survive, we will earn a "
-                +letterGrade+ "- in P.E. class.";
+                +number2+" times. Wish us luck! If we survive, we will earn a "
+                +letterGrade+ "- in P.E. class. However, if we bring a "
+                +itemFromCamping+ " then we will be able to get a " +letterGrade+ " in "
+                +historyClassTeacher+ " class."  ;
         System.out.println(story);
 
     }//constructor method
