@@ -26,7 +26,7 @@ public class MadLib {
     }// main method
 
     public MadLib(){
-        classmate = "Stella";
+        classmate = "Libby";
         city = "Chicago";
         noun = "computer";
         adjective = "prickly";
